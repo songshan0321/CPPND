@@ -1,0 +1,30 @@
+# Lesson 3: A* Search
+
+### Passed by Reference in C++:
+
+Passed by Value:
+
+```c++
+int MultiplyByTwo(int i) {
+    i = 2*i;
+    return i;
+}
+```
+
+Passed by Reference:
+
+```c++
+int MultiplyByTwo(int &i) {
+    i = 2*i;
+    return i;
+}
+```
+
+
+
+### Constants
+
+`const`: The variable can only be evaluated at run time, but I promise not to change it after it is initialized.
+
+`constexpr`: The variable can be evaluated at compile time, and I promise not to change it after it is initialized.
+
